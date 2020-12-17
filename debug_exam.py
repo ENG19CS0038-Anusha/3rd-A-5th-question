@@ -112,3 +112,53 @@ if __name__ == '__main__':
     print(data1)
     print(data2)
     print(dup)
+5a. input
+3
+1 2
+2 2
+9 4
+2
+3 3
+1 4
+when key does not exist in data1  the key-value pair is not added to it 
+5b.if k in data1:
+    v1=data1[k]
+    if v1!=v2:
+        dupkeys[k]=[v1,v2]
+        del data1[k]
+    else:
+        data1[k]=v2
+        (there was an indentation error )
+   5)c)
+(I)Input 
+n1=3
+1 2
+2 2
+9 4
+n2=2
+3 3
+1 4
+output
+{2:2,9:4,3:3}
+[[3,3],[1,4]]
+{1:[2,4]}
+
+(ii)
+n1=2
+1 2
+2 4
+n2=2
+3 4
+2 5
+output
+{1:2,3:4}
+[[3,4],[2,5]]
+{2:[4,5]}
+iii)
+3
+1 2
+2 2
+9 4
+2
+3 3
+1 4
